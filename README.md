@@ -17,10 +17,7 @@ Setup ini berfungsi untuk melakukan scheduler, ketika token masuk ke dalam datab
 - Pilih Select App "Mail"
 - Pilih Select Device "Windows Computer"
 - Lalu Generate Password, Copy dan Simpan Passwordnya
-
-```
-Password ini akan digunakan pada "application/config/email".
-```
+- Password ini akan digunakan pada "application/config/email".
 
 ## Setup WhatsApp API
 

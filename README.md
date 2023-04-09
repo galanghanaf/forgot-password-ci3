@@ -37,11 +37,7 @@ git clone https://github.com/ngekoding/whatsapp-api-tutorial.git
 npm install
 ```
 
-- Catatan
-
-```
-Bila ingin mengubah portnya masuk ke "apps.js", cari portnya (di line 13) lalu ganti 8080 misalnya.
-```
+- Bila ingin mengubah portnya masuk ke "apps.js", cari portnya (di line 13) lalu ganti 8080 misalnya
 
 - NPM Run
 
@@ -57,4 +53,10 @@ npm run start:dev
 
 ```
 composer install
+```
+
+- Setup autoload composer di "application/config/config.php"
+
+```
+$config['composer_autoload'] = FCPATH .'vendor/autoload.php';
 ```

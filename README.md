@@ -52,7 +52,7 @@ npm run start:dev
 - Composer Install
 
 ```
-composer install
+composer require galanghanaf/whatsapp-helper:dev-main
 ```
 
 - Setup autoload composer di "application/config/config.php"
